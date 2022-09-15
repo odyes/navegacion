@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MenuController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +20,12 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBAction func doTapTres(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
+    @IBAction func doTapCuatro(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
 }
 

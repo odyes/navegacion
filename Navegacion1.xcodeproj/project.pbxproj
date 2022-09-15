@@ -8,12 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		3DC88B1628D36A4E00302FF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC88B1528D36A4E00302FF8 /* AppDelegate.swift */; };
-		3DC88B1828D36A4E00302FF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC88B1728D36A4E00302FF8 /* ViewController.swift */; };
+		3DC88B1828D36A4E00302FF8 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC88B1728D36A4E00302FF8 /* MenuController.swift */; };
 		3DC88B1B28D36A4E00302FF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DC88B1928D36A4E00302FF8 /* Main.storyboard */; };
 		3DC88B1D28D36A5000302FF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DC88B1C28D36A5000302FF8 /* Assets.xcassets */; };
 		3DC88B2028D36A5000302FF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DC88B1E28D36A5000302FF8 /* LaunchScreen.storyboard */; };
 		3DC88B2B28D36A5000302FF8 /* Navegacion1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC88B2A28D36A5000302FF8 /* Navegacion1Tests.swift */; };
 		3DC88B3628D36A5000302FF8 /* Navegacion1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC88B3528D36A5000302FF8 /* Navegacion1UITests.swift */; };
+		3DC88B4428D36DDC00302FF8 /* juegoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC88B4328D36DDC00302FF8 /* juegoController.swift */; };
+		3DC88B4628D37B2D00302FF8 /* rojoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC88B4528D37B2D00302FF8 /* rojoController.swift */; };
+		3DC88B4828D37B7100302FF8 /* verdeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC88B4728D37B7100302FF8 /* verdeController.swift */; };
+		3DC88B4A28D37B8D00302FF8 /* naranjaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC88B4928D37B8D00302FF8 /* naranjaController.swift */; };
+		3DC88B4C28D37BA600302FF8 /* rosaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC88B4B28D37BA600302FF8 /* rosaController.swift */; };
+		3DC88B4E28D37BBA00302FF8 /* amarilloController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC88B4D28D37BBA00302FF8 /* amarilloController.swift */; };
+		3DC88B5028D37BEC00302FF8 /* mentaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC88B4F28D37BEC00302FF8 /* mentaController.swift */; };
+		3DC88B5228D37C0A00302FF8 /* azulController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC88B5128D37C0A00302FF8 /* azulController.swift */; };
+		3DC88B5428D37C2A00302FF8 /* cremitaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC88B5328D37C2A00302FF8 /* cremitaController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +45,7 @@
 /* Begin PBXFileReference section */
 		3DC88B1228D36A4E00302FF8 /* Navegacion1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Navegacion1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DC88B1528D36A4E00302FF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3DC88B1728D36A4E00302FF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3DC88B1728D36A4E00302FF8 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
 		3DC88B1A28D36A4E00302FF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3DC88B1C28D36A5000302FF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DC88B1F28D36A5000302FF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +56,15 @@
 		3DC88B3128D36A5000302FF8 /* Navegacion1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Navegacion1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DC88B3528D36A5000302FF8 /* Navegacion1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navegacion1UITests.swift; sourceTree = "<group>"; };
 		3DC88B3728D36A5000302FF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DC88B4328D36DDC00302FF8 /* juegoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = juegoController.swift; sourceTree = "<group>"; };
+		3DC88B4528D37B2D00302FF8 /* rojoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rojoController.swift; sourceTree = "<group>"; };
+		3DC88B4728D37B7100302FF8 /* verdeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = verdeController.swift; sourceTree = "<group>"; };
+		3DC88B4928D37B8D00302FF8 /* naranjaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = naranjaController.swift; sourceTree = "<group>"; };
+		3DC88B4B28D37BA600302FF8 /* rosaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rosaController.swift; sourceTree = "<group>"; };
+		3DC88B4D28D37BBA00302FF8 /* amarilloController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = amarilloController.swift; sourceTree = "<group>"; };
+		3DC88B4F28D37BEC00302FF8 /* mentaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mentaController.swift; sourceTree = "<group>"; };
+		3DC88B5128D37C0A00302FF8 /* azulController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = azulController.swift; sourceTree = "<group>"; };
+		3DC88B5328D37C2A00302FF8 /* cremitaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cremitaController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +116,16 @@
 			isa = PBXGroup;
 			children = (
 				3DC88B1528D36A4E00302FF8 /* AppDelegate.swift */,
-				3DC88B1728D36A4E00302FF8 /* ViewController.swift */,
+				3DC88B4328D36DDC00302FF8 /* juegoController.swift */,
+				3DC88B1728D36A4E00302FF8 /* MenuController.swift */,
+				3DC88B4928D37B8D00302FF8 /* naranjaController.swift */,
+				3DC88B4B28D37BA600302FF8 /* rosaController.swift */,
+				3DC88B4728D37B7100302FF8 /* verdeController.swift */,
+				3DC88B4D28D37BBA00302FF8 /* amarilloController.swift */,
+				3DC88B4F28D37BEC00302FF8 /* mentaController.swift */,
+				3DC88B4528D37B2D00302FF8 /* rojoController.swift */,
+				3DC88B5328D37C2A00302FF8 /* cremitaController.swift */,
+				3DC88B5128D37C0A00302FF8 /* azulController.swift */,
 				3DC88B1928D36A4E00302FF8 /* Main.storyboard */,
 				3DC88B1C28D36A5000302FF8 /* Assets.xcassets */,
 				3DC88B1E28D36A5000302FF8 /* LaunchScreen.storyboard */,
@@ -256,7 +283,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DC88B1828D36A4E00302FF8 /* ViewController.swift in Sources */,
+				3DC88B4E28D37BBA00302FF8 /* amarilloController.swift in Sources */,
+				3DC88B1828D36A4E00302FF8 /* MenuController.swift in Sources */,
+				3DC88B4A28D37B8D00302FF8 /* naranjaController.swift in Sources */,
+				3DC88B4628D37B2D00302FF8 /* rojoController.swift in Sources */,
+				3DC88B4C28D37BA600302FF8 /* rosaController.swift in Sources */,
+				3DC88B5228D37C0A00302FF8 /* azulController.swift in Sources */,
+				3DC88B4428D36DDC00302FF8 /* juegoController.swift in Sources */,
+				3DC88B5428D37C2A00302FF8 /* cremitaController.swift in Sources */,
+				3DC88B5028D37BEC00302FF8 /* mentaController.swift in Sources */,
+				3DC88B4828D37B7100302FF8 /* verdeController.swift in Sources */,
 				3DC88B1628D36A4E00302FF8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
